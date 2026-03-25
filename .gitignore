@@ -1,0 +1,79 @@
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish output
+publish/
+*.publish/
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+Dockerfile.*.local
+
+# Node (React frontend inside same repo)
+node_modules/
+dist/
+build/
+.next/
+coverage/
+
+# Logs & temp
+*.tmp
+*.temp
+*.cache
+
+# Database files (local dev)
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Secrets (DO NOT COMMIT)
+ppsettings.Development.json
+secrets.json
+
+# Misc
+*.swp
+*.bak
+*.old
+
+Notes.md
